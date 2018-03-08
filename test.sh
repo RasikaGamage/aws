@@ -5,12 +5,12 @@
 
 
 export AWS_DEFAULT_REGION="ap-southeast-2"
-export AWS_PROFILE="home"
+#export AWS_PROFILE="home"
 ec2UsmDbFilter="EOMSYS-EC2Instances-SVT_ec2UsmDb"
 ec2BpmDbFilter="EOMSYS-EC2Instances-SVT_ec2BpmDb"
 logFile="/tmp/snapshotlog"
-#export aws_access_key_id="AKIAJWJ5AVDPRI75RAMA"
-#export aws_secret_access_key="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"
+export aws_access_key_id="AKIAJWJ5AVDPRI75RAMA"
+export aws_secret_access_key="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"
 
  vmRunning="running"
  vmStopped="stopped"
